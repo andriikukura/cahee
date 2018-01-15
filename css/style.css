@@ -394,16 +394,16 @@ box-shadow: 3px 4px 44px 1px rgba(0,0,0,0.75);
 	height: 55px;
 	padding-left: 12px;
 	border: 1px solid #262626;
-	color: #262626;
+	color: #262626; 
 	font-size: 15px;
 	font-weight: 300;
 	
 	vertical-align: middle;
 	-webkit-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
+	box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
 
-outline: none;
+	outline: none;
 	
 }
 
@@ -422,10 +422,11 @@ outline: none;
 	padding-top: 17px;
 	margin-left: 30px;
 	vertical-align: bottom;
+	
 	border: 1px solid #96b92c;
 	-webkit-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
+	box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
 
 	}
 
@@ -719,39 +720,39 @@ box-shadow: 6px 5px 17px -1px rgba(0,0,0,0.75);
 color: #fff !important;
 }
 
-input:focus {
+.ba-contacts-form input:focus {
 	border-left: 5px solid #355b82;
 	background-color: #00c4c4;
 	font-size: 15px;
 	font-weight: 700;
 }
-input:hover {
+.ba-contacts-form input:hover {
 	border-left: 5px solid #355b82;
 	background-color: #00c4c4;
 	font-size: 15px;
 	font-weight: 700;
 }
 
-input {
+.ba-contacts-form input {
 	margin-bottom: 15px;
 	font-size: 15px;
 	font-weight: 300;
 	
 }
 
-input::-webkit-input-placeholder {
+.ba-contacts-form input::-webkit-input-placeholder {
 color: #fff !important;
 }
  
-input:-moz-placeholder { /* Firefox 18- */
+.ba-contacts-form input:-moz-placeholder { /* Firefox 18- */
 color: #fff !important;  
 }
  
-input::-moz-placeholder {  /* Firefox 19+ */
+.ba-contacts-form input::-moz-placeholder {  /* Firefox 19+ */
 color: #fff !important;  
 }
  
-input:-ms-input-placeholder {  
+.ba-contacts-form input:-ms-input-placeholder {  
 color: #fff !important;  
 }
 
